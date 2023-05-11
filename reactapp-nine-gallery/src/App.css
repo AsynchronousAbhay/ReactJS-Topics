@@ -1,0 +1,38 @@
+ul[aria-label="Pagination"] {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    margin-top: 2vmax;
+}
+
+ul[aria-label="Pagination"]>li {
+    padding: 0 1vmax;
+    font-weight: 600;
+}
+
+.selected {
+    background-color: rgb(83, 77, 76);
+    color: white;
+}
+
+.previous a {
+    color: black;
+    text-decoration: none;
+    font-weight: 900;
+    font-size: 1.5vmax;
+}
+
+.previous a:hover {
+    color: red;
+}
+
+.next a {
+    color: black;
+    text-decoration: none;
+    font-weight: 900;
+    font-size: 1.5vmax;
+}
+
+.next a:hover {
+    color: red;
+}

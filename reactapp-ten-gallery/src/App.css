@@ -1,0 +1,40 @@
+.pagination {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 1vmax;
+}
+
+.previous a {
+    text-decoration: none;
+    color: black;
+    font-size: 3vmax;
+    font-weight: 700;
+}
+
+.next a {
+    text-decoration: none;
+    color: black;
+    font-weight: 700;
+    font-size: 3vmax;
+}
+
+
+.pagination ul {
+    list-style: none;
+}
+
+.pagination li {
+    margin: 0 1vmax;
+}
+
+.pagination ul li a {
+    font-size: 1vmax;
+    font-weight: 900;
+}
+.pagination .selected{
+    background-color: black;
+    border-radius: 50%;
+    padding: 0.5vmax 1vmax;
+    color: white;
+}
