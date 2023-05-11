@@ -1,0 +1,54 @@
+.formDiv{
+    min-height: 400px;
+    width: 700px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    background: linear-gradient(to bottom right, #ebdcda ,#c07caa, #c2d94a,#c2d94a);
+    position: absolute;
+    top: 20%;
+    left: 3%;
+}
+
+.formCss{
+    width: 50%;
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 3vw;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.566);
+}
+
+.formCss h1{
+    font-size: 2vmax;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.inputCss{
+    border: 1px solid black;
+    border-radius: 5px;
+    background-color: transparent;
+    font-size: 1vmax;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 1vmax;
+    padding: 0.6vw 2vw;
+}
+
+.formCss button{
+    border: none;
+    padding: 1vmax 2vmax;
+    color: white;
+    background-color: black;
+    border-radius: 5px;
+    font-size: 1vmax;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 1.5vmax;
+    cursor: pointer;
+}
+
+
